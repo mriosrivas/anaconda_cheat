@@ -43,5 +43,5 @@ conda remove --name myenv --all
 ### Export environment variable to yml file:
 
 ```bash
-conda env upload --file myenv.yml
+conda env export --file myenv.yml
 ```
